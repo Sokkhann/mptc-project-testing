@@ -22,8 +22,8 @@ import { ref, onMounted } from 'vue'
 import axios from 'axios'
 
 // API Key from .env
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY
-const BASE_URL = 'https://api.themoviedb.org/3'
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+const BASE_URL = import.meta.env.VITE_TMDB_BASE_URL;
 
 const movies = ref([])
 
