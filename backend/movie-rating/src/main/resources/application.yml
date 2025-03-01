@@ -1,0 +1,9 @@
+# TMDB API Configuration
+tmdb:
+  api:
+    key: b5ae5122817663a88047316d6a837481
+    base-url: https://api.themoviedb.org/3
+
+# Server Configuration
+server:
+  port: 8080
