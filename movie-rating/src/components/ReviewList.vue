@@ -14,23 +14,23 @@
           <n-list
             v-else
             bordered
-            style="max-width: 100%; height: 80%; margin: 0; border-radius: 4px"
+            style="max-width: 100%; height: 80%; margin: 0; border-radius: 4px; background-color: #282828; border-color: black; border: 2px dashed #ccc;"
           >
-            <n-list-item v-for="(review, index) in reviews" :key="index">
+            <n-list-item style="border-color: black;" v-for="(review, index) in reviews" :key="index">
               <div style="display: flex; align-items: flex-start; gap: 12px">
                 <!-- Avatar -->
                 <n-avatar round :src="review.profileImage" size="large" />
                 <!-- Review Content -->
                 <div>
-                  <n-text style="font-weight: bold; font-size: 1rem">{{
+                  <n-text style="font-weight: bold; font-size: 1rem; color: #ccc;">{{
                     review.username || 'Annoymous'
                   }}</n-text>
-                  <n-text depth="" style="display: block; font-size: 0.8rem">
+                  <n-text depth="" style="display: block; font-size: 0.8rem; color: #ccc;">
                     {{ review.date }}
                   </n-text>
                 </div>
               </div>
-              <n-text style="display: block; margin-top: 10px">
+              <n-text style="display: block; margin-top: 10px; color: #ccc;">
                 {{ review.text }}
               </n-text>
             </n-list-item>
