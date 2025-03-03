@@ -3,7 +3,7 @@
     <!-- Logo or Brand Name -->
     <div style="flex: 1">
       <router-link to="/" custom v-slot="{ navigate }">
-        <n-button text @click="navigate"> <strong>My App</strong></n-button>
+        <n-button text @click="navigate"> <strong>S.K Rating</strong></n-button>
       </router-link>
     </div>
 
