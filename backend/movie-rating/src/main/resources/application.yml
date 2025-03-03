@@ -1,3 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://mrrkhann9:cIMeR4eH3ZiNWqaF@cluster0.wxwcu.mongodb.net/movie-rating?retryWrites=true&w=majority&appName=Cluster0
 # TMDB API Configuration
 tmdb:
   api:
@@ -7,3 +11,4 @@ tmdb:
 # Server Configuration
 server:
   port: 8080
+
